@@ -16,21 +16,6 @@ const rewardResultText = document.getElementById('reward-result');
 const calculateButton = document.getElementById('calculate-button');
 calculateButton.addEventListener('click', calculateReward)
 
-let supportModalStatus = false;
-
-const supportButton = document.getElementById('support-button');
-supportButton.addEventListener('click', toggleSupportModal)
-
-const closeSupportButton = document.getElementById('close-support-button');
-closeSupportButton.addEventListener('click', toggleSupportModal)
-
-const supportModal = document.getElementById('support-modal');
-
-function toggleSupportModal() {
-    supportModal.style.display = (supportModalStatus) ? 'none' : 'block';
-    supportModalStatus = !supportModalStatus;
-}
-
 function calculateReward() {
     resultDiv.style.display = 'none';
     calculateButton.disabled = true;
