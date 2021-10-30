@@ -1,6 +1,6 @@
 # skill-reward-optimizer
 
-Utilidad para ver cuando es el mejor momento para jugar Crypblades y obtener mayor recompensa en SKILL.
+Utilidad para ver cuando es el mejor momento para jugar Cryptoblades y obtener mayor recompensa en SKILL.
 
 ![Preview](https://github.com/LucasVelazquez/skill-reward-optimizer/blob/main/preview.png?raw=true)
 
